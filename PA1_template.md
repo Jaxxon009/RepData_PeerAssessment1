@@ -66,14 +66,6 @@ head(activity_new)
 
 ``` r
 library(ggplot2)
-```
-
-```
-## RStudio Community is a great place to get help:
-## https://forum.posit.co/c/tidyverse
-```
-
-``` r
 StepsPerDay <- aggregate(steps ~ date, activity_new,sum)
 head(StepsPerDay)
 ```
@@ -204,12 +196,12 @@ library(tidyverse)
 ```
 
 ```
-## ── Attaching core tidyverse packages ─────────────────
+## ── Attaching core tidyverse packages ────────────────
 ## ✔ dplyr     1.1.4     ✔ readr     2.1.5
 ## ✔ forcats   1.0.1     ✔ stringr   1.5.2
 ## ✔ lubridate 1.9.4     ✔ tibble    3.3.0
 ## ✔ purrr     1.1.0     ✔ tidyr     1.3.1
-## ── Conflicts ──────────────── tidyverse_conflicts() ──
+## ── Conflicts ─────────────── tidyverse_conflicts() ──
 ## ✖ dplyr::filter() masks stats::filter()
 ## ✖ dplyr::lag()    masks stats::lag()
 ## ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
